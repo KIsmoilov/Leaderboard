@@ -1,6 +1,6 @@
 ## Template
 
-- This is a template
+- This is a leaderboard website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved by the external Leaderboard API service.
 
 ## Built With
 
@@ -19,7 +19,7 @@
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
 ## Live Demo (if available)
-Please use the following [link](https://kismoilov.github.io/to-do-list-project-with-webpack/) to access the website: https://kismoilov.github.io/to-do-list-project-with-webpack/
+
 ### Linter Tests
 
 - `npx hint .`
@@ -61,7 +61,11 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    Click and open the html file
    ```
-5. Please run the following to render on the browser
+5. Please install the node module by running this command on the terminal
+   ```sh
+   npm install
+   ```
+6. Please run the following to render on the browser
    ```sh
    npm start
    ```
@@ -80,7 +84,7 @@ See the [open issues](#) for a full list of proposed features (and known issues)
 
 - Contributions, issues, and feature requests are welcome!
 
-- Feel free to check the [issues page](https://github.com/KIsmoilov/to-do-list-project-with-webpack/issues).
+- Feel free to check the [issues page](https://github.com/KIsmoilov/Leaderboard/issues).
 
 ## Show your support
 
