@@ -12,20 +12,18 @@
 <div class="recentScores">
     <div class="title">
         <h2>Recent scores</h2>
-        <button class="refresh" type="reset">Refresh</button>
+        <button class="refreshBtn">Refresh</button>
     </div>
     <ul class="scoreList">
-        <li>Name: 100</li>
-        <li>Name: 200</li>
-        <li>Name: 100</li>
+    
     </ul>
 </div>
 <div class="addScore">
     <h2>Add your score</h2>
     <form class="inputScores" method="post" action="#">
-        <input type="text" placeholder="Your name" required>
-        <input type="number" placeholder="Your score" required>
-        <button class="submit" type="submit">Submit</button>
+        <input type="text" name="user" placeholder="Your name" required>
+        <input type="number" name="score" placeholder="Your score" required>
+        <button class="submitBtn" type="submit">Submit</button>
     </form>
 </div>
 </main>
