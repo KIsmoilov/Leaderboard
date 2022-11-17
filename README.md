@@ -19,6 +19,9 @@
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
 ## Live Demo (if available)
+<div align = "center">
+<img width="" height = "" src="./src/images/screenshot.png" alt="screenshot" />
+</div>
 
 ### Linter Tests
 
