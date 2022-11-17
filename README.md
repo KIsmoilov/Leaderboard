@@ -47,7 +47,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo by running the command
    ```sh
-    git clone https://github.com/KIsmoilov/to-do-list-project-with-webpack.git
+    git clone https://github.com/KIsmoilov/Leaderboard.git
    ```
 2. Open the directory of the project
    ```sh
