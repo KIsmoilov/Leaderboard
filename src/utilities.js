@@ -1,10 +1,10 @@
 const scoreList = document.querySelector('.scoreList');
 const baseUrl = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${process.env.API_KEY}/scores/`;
 
-const showScores = ({ user, score }) => {
+const showScores = ({ user, score }, index) => {
   const list = document.createElement('li');
   list.className = 'list-item';
-  list.innerHTML = `<span class="name">${user}</span>:<span class="score">${score}</span>`;
+  list.innerHTML = `<span class="index">${index}</span><span class="name">${user}</span><span class="score">${score}</span>`;
 
   return list;
 };
@@ -16,8 +16,11 @@ const getListOfInputs = async () => {
   scores.sort((x, y) => y.score - x.score);
   scoreList.innerHTML = '';
 
+  let index = 0;
   scores.forEach((score) => {
-    scoreList.appendChild(showScores(score));
+    index += 1;
+    const scoreIndex = index > 3 ? index : '';
+    scoreList.appendChild(showScores(score, scoreIndex));
   });
   return scores;
 };
