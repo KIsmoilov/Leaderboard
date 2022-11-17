@@ -22,6 +22,7 @@
 <div align = "center">
 <img width="" height = "" src="./src/images/screenshot.png" alt="screenshot" />
 </div>
+
 ### Linter Tests
 
 - `npx hint .`
