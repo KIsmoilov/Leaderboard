@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/KIsmoilov/template-with-webpack-and-linter/issues"
   },
-  "homepage": "#",
+  "homepage": "https://kismoilov.github.io/Leaderboard/",
   "dependencies": {
     "gh-pages": "^4.0.0",
     "lodash": "^4.17.21",
