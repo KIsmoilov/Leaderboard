@@ -21,7 +21,8 @@
 ## Live Demo (if available)
 
 Please use the following link to access the website:
-- [Live Demo Link](https://kismoilov.github.io/JS-Capstone-Project/)
+
+- [Live Demo Link](https://kismoilov.github.io/Leaderboard/)
 
 <div align = "center">
 <img width="" height = "" src="./src/images/screenshot.png" alt="screenshot" />
